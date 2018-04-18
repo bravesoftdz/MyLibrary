@@ -41,6 +41,12 @@ Important: the application will reboot.
 14. Apache POI (library for MS Office "Excel") <b>Apache POI - the Java API for Microsoft Documents</b> https://poi.apache.org/
 15. mysql-connector-java (library for MySQL) https://dev.mysql.com/downloads/connector/j/5.1.html
 16. WAR (<b>Web Application Resource</b>) file for deployment on the server.
+17. etc.
+
+# <i>Other resources</i>
+1. freegeoip.net (To get the current position and user's IP in the format of the JSON and save to the database.)
+2. Date formats in UNIX
+3. etc.
 
 # <i>Data for the test input</i>
 URL: http://gvozdev.mycloud.by
