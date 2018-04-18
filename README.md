@@ -4,7 +4,7 @@
 <b><i>Final work with the courses (JAVA, JAVA QA Automation).</i></b>
 
 
-# Brief description
+# <i>Brief description</i>
 Web application for accounting books. 
 The application was split into several users (administrator, librarians, readers). 
 Each user has his own functions and access rights. 
@@ -14,7 +14,7 @@ The user can use the mobile client (Android) to download the link in the web app
 The user can switch it over the flag image near the application logo. 
 Important: the application will reboot. 
 
-# Features:
+# <i>Features</i>
 1. Sending messages to e-mail.
 2. Printing (saving) lists of books and readers in a file (Excel).
 3. Implemented a simple chat between users.
@@ -24,7 +24,7 @@ Important: the application will reboot.
 7. Accounting for books issued.
 8. etc.
 
-# Technologies used.
+# <i>Technologies used</i>
 1. JAVA
 2. Maven
 3. Servlet
@@ -39,7 +39,7 @@ Important: the application will reboot.
 12. Apache POI (library for MS Office "Excel") <b>Apache POI - the Java API for Microsoft Documents</b> https://poi.apache.org/
 13. mysql-connector-java (library for MySQL) https://dev.mysql.com/downloads/connector/j/5.1.html
 
-# Data for the test input
+# <i>Data for the test input</i>
 URL: http://gvozdev.mycloud.by
 * <b>ADMINISTRATOR</b> (login: <b>admin</b>, password: <b>250486al</b>)
 * <b>LIBRARIAN</b> (login: <b>lib1</b>, password: <b>lib1</b>)
