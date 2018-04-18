@@ -17,6 +17,10 @@ Features:
 2. Printing (saving) lists of books and readers in a file (Excel).
 3. Implemented a simple chat between users.
 4. The chat uses "tags" to quickly find a book or reader.
+5. New User Registration.
+6. Search for books and readers.
+7. Accounting for books issued.
+8. etc.
 
 # Technologies used.
 1. JAVA
