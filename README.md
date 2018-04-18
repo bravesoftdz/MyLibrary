@@ -27,17 +27,21 @@ Important: the application will reboot.
 # <i>Technologies used</i>
 1. JAVA
 2. Maven
-3. Servlet
-4. HTML
-5. JavaScript 
-6. JQuery
-7. AJAX
-8. CSS (without framework)
-9. javax.servlet-api (library for servlet)
-10. gson (library for JSON) https://sites.google.com/site/gson/gson-user-guide
-11. javax.mail-api, java.mail (library for email) https://mvnrepository.com/
-12. Apache POI (library for MS Office "Excel") <b>Apache POI - the Java API for Microsoft Documents</b> https://poi.apache.org/
-13. mysql-connector-java (library for MySQL) https://dev.mysql.com/downloads/connector/j/5.1.html
+3. Apache Tomcat® http://tomcat.apache.org/
+4. Servlet
+* encoding UTF-8 (for for Cyrillic characters)
+* filter-mapping
+5. HTML
+6. JavaScript 
+7. JQuery
+8. AJAX
+9. Decode, Encode to Base64 (image)
+10. CSS (without framework)
+11. javax.servlet-api (library for servlet)
+12. gson (library for JSON) https://sites.google.com/site/gson/gson-user-guide
+13. javax.mail-api, java.mail (library for email) https://mvnrepository.com/
+14. Apache POI (library for MS Office "Excel") <b>Apache POI - the Java API for Microsoft Documents</b> https://poi.apache.org/
+15. mysql-connector-java (library for MySQL) https://dev.mysql.com/downloads/connector/j/5.1.html
 
 # <i>Data for the test input</i>
 URL: http://gvozdev.mycloud.by
