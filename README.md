@@ -12,7 +12,7 @@ The opportunity of self-registration of the user is realized.
 After successful registration, the user can change some of his data in the account settings after logging on. 
 The user can use the mobile client (Android) to download the link in the web application or from the repository [Library_client](https://github.com/gvozdev1986/MyLibraryClient/blob/master/Library_client.apk "Download mobile application"). The application has two languages: English and Russian. 
 The user can switch it over the flag image near the application logo. 
-Important: the application will reboot. 
+Important: the application will reboot. Each book has a description, an image. The user also has a series of data.
 
 # <i>Features</i>
 1. Sending messages to e-mail.
@@ -46,7 +46,8 @@ Important: the application will reboot.
 # <i>Other resources</i>
 1. freegeoip.net (To get the current position and user's IP in the format of the JSON and save to the database.)
 2. Date formats in UNIX
-3. etc.
+3. mail.ru (To send messages to users. <b>smtp.mail.ru / 465</b>)
+4. etc.
 
 # <i>Data for the test input</i>
 URL: http://gvozdev.mycloud.by
