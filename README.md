@@ -1,7 +1,7 @@
 # MyLibrary
 ![Image alt](https://github.com/gvozdev1986/MyLibrary/blob/master/webapp/img/logo.png)
 
-<span style="color: red; font-size: 2em">Final work with the courses (JAVA, JAVA QA Automation).</span>
+<b><i>Final work with the courses (JAVA, JAVA QA Automation).</i></b>
 
 
 # Brief description
