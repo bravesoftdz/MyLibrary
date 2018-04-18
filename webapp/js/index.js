@@ -302,6 +302,13 @@ function unixtimetodate(date) {
     return timestamp.format("DD.MM.YYYY");
 };
 
+function unixtimetodateTime(date) {
+    var theDate = date;
+    var timestamp = moment.unix(theDate);
+    return timestamp.format("DD.MM.YYYY hh:mm:ss");
+};
+
+
 function unixtimetodateDateBirth(date) {
     var theDate = date;
     var timestamp = moment.unix(theDate);
@@ -3626,25 +3633,32 @@ function loadlast10Messages() {
                         var senderJSON = arr["msgList"][i]["fromUser"];
                         var senderApp = document.getElementById('userField').value;
 
+                        var dateOn = unixtimetodateTime(arr["msgList"][i]["dateOn"]);
+                        
                         if (senderJSON == senderApp) {
-                            msgFromUserWithStyle = '<label id=messageFromUser" class="messageFromUser">'
+                            msgFromUserWithStyle = '<div class="msgStyleBlockFromUser"><label id=messageFromUser" class="messageFromUser">'
                                     + arr["msgList"][i]["fromUser"]
                                     + '</label>';
+                            
+                            var codeMessage = 'spanMsg-' + i;
+                            var messageArr = '<span id="' + codeMessage + '"  onClick="selectSearchLink(' + i + ');">'+ arr["msgList"][i]["message"] + '</span>';
+
+                            msgList.innerHTML = msgList.innerHTML + msgFromUserWithStyle + ' >>> ' + arr["msgList"][i]["toUser"] + ': </br>' + messageArr  
+                            + '<div id="dateOnMessage" class="dateOnMessage">'+dateOn+'</div></div>';
+                            
+                            
                         } else {
-                            msgFromUserWithStyle = '<label id=messageFromAnyUser" class="messageFromAnyUser">'
-                                    + arr["msgList"][i]["fromUser"]
-                                    + '</label>';
+                            msgFromUserWithStyle = '<div  class="msgStyleBlock"><label id=messageFromAnyUser" class="messageFromAnyUser">' + arr["msgList"][i]["fromUser"] + '</label>';
+                            
+                            var codeMessage = 'spanMsg-' + i;
+                            var messageArr = '<span id="' + codeMessage + '"  onClick="selectSearchLink(' + i + ');">' + arr["msgList"][i]["message"] + '</span>';
+
+                            msgList.innerHTML = msgList.innerHTML + msgFromUserWithStyle + ' >>> ' + arr["msgList"][i]["toUser"] + ': </br>' + messageArr  
+                            + '<div id="dateOnMessage" class="dateOnMessage">'+dateOn+'</div></div>';
+                            
                         }
 
-                        var codeMessage = 'spanMsg-' + i;
-                        var messageArr = '<span id="' + codeMessage
-                                + '"  onClick="selectSearchLink(' + i + ');">'
-                                + arr["msgList"][i]["message"] + '</span>';
-
-                        msgList.innerHTML = msgList.innerHTML
-                                + msgFromUserWithStyle + '->'
-                                + arr["msgList"][i]["toUser"] + ':'
-                                + messageArr + '</br>';
+                        
                     }
                 }
             });
@@ -3701,6 +3715,7 @@ function sendMessageFromChat() {
     var msgList = document.getElementById('listMessages');
     var toUser = document.getElementById('fieldNameUserSendTo');
     var fromUser = document.getElementById('userField');
+    var dateTimeToUnix = Math.round(new Date().getTime()/1000.0);
     // msgList.innerHTML = msgList.innerHTML
     // + '<div id=\'messageFromAdmin\' class=\'messageFromAdmin\'>' + msg.value
     // + '</br><label class="dateOnMessage" for="messageFromAdmin">20.20.2018
@@ -3709,7 +3724,7 @@ function sendMessageFromChat() {
 
     var data = {
         action : 'writeMessage',
-        dateOn : 1523962426,
+        dateOn : dateTimeToUnix,
         fromUser : fromUser.value,
         toUser : toUser.value,
         message : msg.value
