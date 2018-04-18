@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.garientCountDay {
+	background: linear-gradient(334deg, #ff0000, #ffffff);
+	background-size: 400% 400%;
+	-webkit-animation: AnimationName 1s ease infinite;
+	-moz-animation: AnimationName 1s ease infinite;
+	animation: AnimationName 1s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}

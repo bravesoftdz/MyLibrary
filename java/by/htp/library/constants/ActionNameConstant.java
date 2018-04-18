@@ -1,0 +1,45 @@
+package by.htp.library.constants;
+
+public class ActionNameConstant {
+	public static final String ACTION_READ_ALL_BOOK_1 = "readAllBooks";
+	public static final String ACTION_READ_ALL_EMPLOYEE = "readAllEmployee";
+	public static final String ACTION_ENTRANCE_USER = "entranceUser";
+	public static final String ACTION_READ_ALL_BOOK_4 = "readAllBooks";
+	public static final String ACTION_CREATE_BOOK = "createBook";
+	public static final String ACTION_UPDATE_BOOK = "updateBook";
+	public static final String ACTION_DELETE_BOOK = "deleteBook";
+	public static final String ACTION_CREATE_EMPLOYEE_8 = "createEmployee_8";
+	public static final String ACTION_FIND_BOOK = "findBook";
+	public static final String ACTION_CREATE_XLS_BOOK = "createXLSBook";
+	public static final String ACTION_SELECT_BOOK_ID = "selectBookId";
+	public static final String ACTION_FIND_EMPLOYEE = "findEmployee";
+	public static final String ACTION_DELETE_EMPLOYEE = "deleteEmployee";
+	public static final String ACTION_CREATE_XLS_EMPLOYEE = "createXLSEmployee";
+	public static final String ACTION_SELECT_EMPLOYEE_ID = "selectEmployeeId";
+	public static final String ACTION_READ_ALL_BOOK_16 = "readAllBooks";
+	public static final String ACTION_FINDFIRST_REPORT = "findFirstReport";
+	public static final String ACTION_ISSUE_BOOK_REPORT = "issueBookReport";
+	public static final String ACTION_SEND_EMAIL = "sendEmail";
+	public static final String ACTION_ACC_LIST_BOOK = "accListBook";
+	public static final String ACTION_CREATE_EMPLOYEE_21 = "createEmployee_21";
+	public static final String ACTION_CREATE_EMPLOYEE_BOOK = "createEmployeeBook";
+	public static final String ACTION_UPDATE_BOOK_EMPLOYEE = "updateBookEmployee";
+	public static final String ACTION_ISSUE_BOOK_FIND_ROW = "issueBookFindRow";
+	public static final String ACTION_FILTER_ISSUE = "filterIssue";
+	public static final String ACTION_RATING = "rating";
+	public static final String ACTION_ADDITIONAL_INFO = "additionalInfo";
+	public static final String ACTION_UPDATE_ADDITIONAL_INFORMATION = "updateAdditionalInformation";
+	public static final String ACTION_CREATE_RENT = "createRent";
+	public static final String ACTION_READ_ALL_RENT = "readAllRent";
+	public static final String ACTION_UPDATE_EMPLOYEE = "updateEmployee";
+	public static final String ACTION_SELECT_ACCOUNT_EMPLOYEE = "selectAccountEmployeeId";
+	public static final String ACTION_ANSWER_RENTING = "answerRenting";
+	public static final String ACTION_WRITE_MESSAGE = "writeMessage";
+	public static final String ACTION_READ_MESSAGE = "readMessage";
+	public static final String ACTION_SELECT_USERS_CHAT = "selectChatUsers";
+	public static final String ACTION_SELECT_BOOK_RENT_EMPLOYEE = "selectBookRentEmployee";
+	public static final String ACTION_DELETE_RENTING_BOOK_EMPLOYEE = "deleteRentingBookEmployee";
+	public static final String ACTION_ROUD_BOOKS = "selectReadBooks";
+	public static final String ACTION_SELECT_BOOK_PAGE = "bookPage";
+	public static final String ACTION_WRITE_VISITERS = "visitersInformation";
+}
