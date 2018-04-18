@@ -16,6 +16,7 @@ A:hover {
 .dateOnMessage {
 	font-size : 7pt;
 	color: black;
+	text-align : right;
 }
 
 .msgStyleBlock {
