@@ -13,6 +13,33 @@ A:hover {
 	/* Отменяем подчеркивание у ссылки */
 }
 
+.dateOnMessage {
+	font-size : 7pt;
+	color: black;
+	text-align : right;
+}
+
+.msgStyleBlock {
+	border: 1px solid green;
+    width: 222px;
+    height: auto;
+    /* position: inherit; */
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.msgStyleBlockFromUser {
+	border: 1px solid green;
+    width: 222px;
+    height: auto;
+    /* position: inherit; */
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+
 .messageFromUser {
 	color: red;
 }
@@ -21,11 +48,7 @@ A:hover {
 	color: blue;
 }
 
-.dateOnMessage {
-	font-size: 7pt;
-	left: 5px;
-	position: inherit;
-}
+
 
 .dateMessage {
 	text-align: left;
