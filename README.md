@@ -40,6 +40,7 @@ Important: the application will reboot.
 13. javax.mail-api, java.mail (library for email) https://mvnrepository.com/
 14. Apache POI (library for MS Office "Excel") <b>Apache POI - the Java API for Microsoft Documents</b> https://poi.apache.org/
 15. mysql-connector-java (library for MySQL) https://dev.mysql.com/downloads/connector/j/5.1.html
+16. WAR (<b>Web Application Resource</b>) file for deployment on the server.
 
 # <i>Data for the test input</i>
 URL: http://gvozdev.mycloud.by
