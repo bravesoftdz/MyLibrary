@@ -28,9 +28,7 @@ Important: the application will reboot.
 1. JAVA
 2. Maven
 3. Apache Tomcat® http://tomcat.apache.org/
-4. Servlet
-* encoding UTF-8 (for for Cyrillic characters)
-* filter-mapping
+4. Servlet (encoding UTF-8 (for for Cyrillic characters))
 5. HTML
 6. JavaScript 
 7. JQuery
