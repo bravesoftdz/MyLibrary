@@ -29,13 +29,15 @@ Important: the application will reboot.
 2. Maven
 3. Servlet
 4. HTML
-5. JavaScript
-6. AJAX
-7. CSS
-8. gson (library for JSON)
-9. javax.mail-api, java.mail (library for email)
-10. POI (library for MS Office "Excel")
-11. mysql-connector-java (library for MySQL)
+5. JavaScript 
+6. JQuery
+7. AJAX
+8. CSS (without framework)
+9. javax.servlet-api (library for servlet)
+10. gson (library for JSON) https://sites.google.com/site/gson/gson-user-guide
+11. javax.mail-api, java.mail (library for email) https://mvnrepository.com/
+12. Apache POI (library for MS Office "Excel") <b>Apache POI - the Java API for Microsoft Documents</b> https://poi.apache.org/
+13. mysql-connector-java (library for MySQL) https://dev.mysql.com/downloads/connector/j/5.1.html
 
 # Data for the test input
 URL: http://gvozdev.mycloud.by
