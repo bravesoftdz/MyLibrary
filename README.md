@@ -1,6 +1,7 @@
 # MyLibrary
-Final work with the courses (JAVA, JAVA QA Automation).
 ![Image alt](https://github.com/gvozdev1986/MyLibrary/blob/master/webapp/img/logo.png)
+Final work with the courses (JAVA, JAVA QA Automation).
+
 
 # Brief description
 Web application for accounting books. 
@@ -12,7 +13,7 @@ The user can use the mobile client (Android) to download the link in the web app
 The user can switch it over the flag image near the application logo. 
 Important: the application will reboot. 
 
-Features:
+# Features:
 1. Sending messages to e-mail.
 2. Printing (saving) lists of books and readers in a file (Excel).
 3. Implemented a simple chat between users.
